@@ -1,0 +1,35 @@
+/* Estilo de header */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    background-color: #666;
+    font-size: 35px;
+    color: white;
+}
+/* Crear 2 columnas con la misma posición en la fila */
+div.icono {
+    float: left;
+    padding: 40px 20px;
+    width: 10%;
+}
+div.titulo{
+    margin: 0;
+    padding: 1px;
+}
+h2{
+    text-align: center;
+}
+ul{
+    
+    justify-content: flex-start;
+    list-style-type: none;
+}
+#nav_bar{
+    display: flex;
+    flex-direction: column;
+}
